@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import AppLoading from "expo-app-loading";
+
 import React from "react";
 import { useFonts, Inter_900Black } from "@expo-google-fonts/inter";
 import {
@@ -8,6 +8,7 @@ import {
   Nunito_900Black_Italic,
 } from "@expo-google-fonts/nunito";
 import { StyleSheet, Text, View } from "react-native";
+import AppLoading from "expo-app-loading";
 
 import Home from "./src/Screens/Home/Home";
 
